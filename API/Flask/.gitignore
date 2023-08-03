@@ -1,0 +1,44 @@
+# Ignore Python virtual environment files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore pipenv or poetry virtual environment files if applicable
+Pipfile.lock
+poetry.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local development settings (specific to IDEs, editors, etc.)
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any log files, cache, or temporary files
+*.log
+*.cache
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore compiled binaries and build artifacts
+*.exe
+*.dll
+*.so
+*.pyd
+*.out
+/build/
+/dist/
+*.egg-info/
