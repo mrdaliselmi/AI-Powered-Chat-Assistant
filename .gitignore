@@ -1,0 +1,47 @@
+# Ignore Python virtual environment files
+API/Flask/venv/
+API/Flask/__pycache__/
+API/Flask/*.pyc
+API/Flask/*.pyo
+API/Flask/*.pyd
+
+# Ignore pipenv or poetry virtual environment files if applicable
+API/Flask/Pipfile.lock
+API/Flask/poetry.lock
+
+# Ignore Jupyter Notebook checkpoints
+API/Flask/.ipynb_checkpoints/
+
+# Ignore local development settings (specific to IDEs, editors, etc.)
+API/Flask/.vscode/
+API/Flask/.idea/
+
+# Ignore compiled Python files
+API/Flask/*.pyc
+API/Flask/*.pyo
+API/Flask/*.pyd
+
+# Ignore system-specific files
+API/Flask/.DS_Store
+API/Flask/Thumbs.db
+
+# Ignore any log files, cache, or temporary files
+API/Flask/*.log
+API/Flask/*.cache
+API/Flask/*.swp
+API/Flask/*.swo
+API/Flask/*.tmp
+API/Flask/*.bak
+
+# Ignore compiled binaries and build artifacts
+API/Flask/*.exe
+API/Flask/*.dll
+API/Flask/*.so
+API/Flask/*.pyd
+API/Flask/*.out
+API/Flask/build/
+API/Flask/dist/
+API/Flask/*.egg-info/
+
+# Ignore the Lib folder
+API/Flask/Lib/
