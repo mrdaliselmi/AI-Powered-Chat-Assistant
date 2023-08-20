@@ -15,21 +15,8 @@ if __name__ == "__main__":
   filepath = args.filepath
   with open(filepath,"rb") as f:
     data =json.load(f)
-  if args.type == "conv":
-    transformed_train = []
-    for da in data:
-        data_point = {}
-        for i, context in enumerate(da['context']):
-            data_point["context" +str(i)] =context
-        data_point['response'] = da['response']
-        transformed_train.append(data_point)
-  elif args.type == "dia":
-    transformed_train = []
-    for da in data:
-      try:
-        transformed_train.append({"dialog": list(da.values())[:-1] , "knowledge": "", "response": da["response"]})
-      except Exception:
-        continue
-  with open(args.save_file,"w",encoding="utf-8") as f:
-    print(len(transformed_train))
-    json.dump(transformed_train,f,ensure_ascii=False)
+with open(args.save_file, "w", encoding="utf-8") as f:
+    print(len(data))
+    for obj in data:
+        json.dump(obj, f, ensure_ascii=False)
+        f.write('\n')
