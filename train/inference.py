@@ -57,5 +57,5 @@ if __name__ =="__main__":
         dialog.append(message)
         knowledge = ""
         answer = generate(knowledge, dialog, num_return_sequences=3)
-        print("Model: "+ str(answer))
+        print("Model: "+ str(answer[0]))
         dialog.append(answer)
