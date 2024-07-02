@@ -374,7 +374,7 @@ webdriver-manager==3.2.2
 webencodings==0.5.1
 websocket-client==1.5.3
 websockets==10.4
-Werkzeug==2.3.6
+Werkzeug==3.0.3
 wget==3.2
 widgetsnbextension==4.0.5
 win32-setctime==1.1.0
