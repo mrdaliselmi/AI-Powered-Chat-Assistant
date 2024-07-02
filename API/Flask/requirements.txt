@@ -238,7 +238,7 @@ pyee==9.0.4
 PyExecJS==1.5.1
 pyfaidx==0.7.2.1
 Pygments==2.15.1
-pyinstaller==5.7.0
+pyinstaller==5.13.1
 pyinstaller-hooks-contrib==2022.15
 pymailtm==1.1.1
 PyMeeus==0.5.12
