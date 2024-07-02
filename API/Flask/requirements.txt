@@ -87,7 +87,7 @@ Flask==2.3.2
 flask-babel==3.1.0
 Flask-Cors==3.0.10
 flatbuffers==23.1.4
-fonttools==4.38.0
+fonttools==4.43.0
 fqdn==1.5.1
 frozenlist==1.3.3
 fsspec==2023.5.0
