@@ -229,7 +229,7 @@ pyasn1-modules==0.2.8
 pycaw==20230322
 pycparser==2.21
 pycryptodome==3.19.1
-pycryptodomex==3.18.0
+pycryptodomex==3.19.1
 pydantic==1.10.13
 pydeck==0.8.1b0
 pydivert==2.1.0
