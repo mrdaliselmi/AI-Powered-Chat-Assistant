@@ -322,7 +322,7 @@ tenacity==8.1.0
 tensorboard==2.11.2
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.11.1
+tensorflow==2.12.1
 tensorflow-addons==0.20.0
 tensorflow-datasets==4.8.3
 tensorflow-docs @ git+https://github.com/tensorflow/docs@fc6d14505c5d72a96a09496407cea3e1f2db6550
